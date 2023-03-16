@@ -18,7 +18,7 @@ namespace SingleResponsability
             storage.Add(new Student(2, "Mariana Lopera", new List<double>() { 4, 5 }));
             storage.Add(new Student(3, "José Molina", new List<double>() { 2, 3 }));
         }
-
+// 
         public IEnumerable<Student> GetAll() 
         {
             return storage.GetAll();
